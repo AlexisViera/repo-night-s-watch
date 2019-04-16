@@ -5,4 +5,4 @@ Laboratorio de Programación Orientada a Objetos
 
 + Victor Rios
 + Alexis Viera
-+ Integrante tres
++ Erick Quispe
