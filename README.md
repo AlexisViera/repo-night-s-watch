@@ -4,5 +4,5 @@ Laboratorio de Programación Orientada a Objetos
 ## Night's Watch
 
 + Victor Rios
-+ Integrante dos
++ Alexis Viera
 + Integrante tres
