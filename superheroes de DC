@@ -1,0 +1,36 @@
+object flash {
+
+    var energia=50000 var vida=100 var fuerza=10
+
+    method correr(velocidad){
+        if(velocidad > 300000){
+            return 'Imposible capo, querés que el universo explote?'
+        }
+        else{
+        if(velocidad/100 > energia){
+            return 'No tengo energía'
+        }
+        else{
+        energia-=velocidad/6
+        fuerza+=velocidad/6
+        return energia
+            }
+        }
+    }
+    method fuerza(){
+        if(energia<10){
+            return 'me cansé'
+        }
+        else{
+        return fuerza
+    }
+    }
+    method comer(insumo){
+        energia+=insumo
+        return energia
+    }
+    method golpe(dano){
+        vida-=dano
+        return vida
+    }
+}
